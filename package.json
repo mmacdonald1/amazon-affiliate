@@ -1,0 +1,29 @@
+{
+  "name": "amazon-affiliate",
+  "version": "1.0.0",
+  "description": "practice for mind-reader project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmacdonald1/amazon-affiliate.git"
+  },
+  "keywords": [
+    "amazon"
+  ],
+  "author": "Melanie MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmacdonald1/amazon-affiliate/issues"
+  },
+  "homepage": "https://github.com/mmacdonald1/amazon-affiliate#readme",
+  "dependencies": {
+    "apac": "^3.0.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
