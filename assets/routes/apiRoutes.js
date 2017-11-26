@@ -1,14 +1,16 @@
 var path = require('path');
 
-const {OperationHelper} = require('apac');
+
 
 module.exports = function(app) {
     var amazonKeys =require('../keys.js');
+    const {OperationHelper} = require('apac');
+     console.log(amazonKeys);
     
     const opHelper= new OperationHelper({
-        awsId:amazonKeys.AccessId,
-        awsSecret:amazonKeys.Secret,
-        assocId:amazonKeys.Tag,
+        awsId:'AKIAJXVDU57RIXD43QDA',
+        awsSecret:'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',
+        assocId:'mmacdonald1-20',
         locale:'US'
     });
     
